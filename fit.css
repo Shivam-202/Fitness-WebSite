@@ -343,21 +343,14 @@ header .right-menu .submenu a {
 }
 
 
-.section-third .tools .learn img{
-   margin-left: 7rem;
-   margin-bottom: 1rem;
+.section-third .tools .learn,.section-third .tools .time,.section-third .tools .motivate{
+    display: grid;
+    justify-content: center;
+}
+ .section-third .tools .learn img,.section-third .tools .time img, .section-third .tools .motivate img{
+    margin-bottom: 1rem;
    margin-top: 1rem;
 }
-.section-third .tools .time img{
-    margin-left: 7rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
- }
- .section-third .tools .motivate img{
-    margin-left: 8rem;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
- }
 
 
  #board{
